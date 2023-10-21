@@ -29,6 +29,9 @@ public class ComputadoraService {
     public List<ComputadoraRecord> listarCompus(){
         DiscoRecord discoWestern = new DiscoRecord("Western Digital", 1, 64);
         DiscoRecord discoSeagate = new DiscoRecord("Seagate", 8, 256);
-        return Arrays.asList(new ComputadoraRecord("Lenovo","16GB",discoWestern),new ComputadoraRecord("HP","32GB",discoSeagate));
+        return Arrays.asList(new ComputadoraRecord("Lenovo","16GB",discoWestern),
+                new ComputadoraRecord("HP","32GB",discoSeagate));
     }
+
+
 }
